@@ -2,26 +2,32 @@
 
 
 Atleta::Atleta(const string &n, const Genero &g, const int &a, const Pais &p, const int &c) {
+    _nombre = n;
+    _genero = g;
+    _anioNacimiento = a;
+    _nacionalidad = p;
+    _ciaNumber = c;
+    _deportes = { make_pair("Tenis", 50) };
 }
 
 string Atleta::nombre() const {
-    return "";
+    return _nombre;
 }
 
 Genero Atleta::genero() const {
-    return Genero::Femenino;
+    return _genero;
 }
 
 int Atleta::anioNacimiento() const {
-    return 1920;
+    return _anioNacimiento;
 }
 
 Pais Atleta::nacionalidad() const {
-    return "Andorra";
+    return _nacionalidad;
 }
 
 int Atleta::ciaNumber() const {
-    return 0;
+    return _ciaNumber;
 }
 
 vector<Deporte> Atleta::deportes() const {
