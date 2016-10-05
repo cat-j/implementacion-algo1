@@ -1,16 +1,16 @@
 #include "../include/atleta.h"
 
 
-// Atleta::Atleta(const string &n, const Genero &g, const int &a, const Pais &p, const int &c) {
-//     _nombre = n;
-//     _genero = g;
-//     _anioNacimiento = a;
-//     _nacionalidad = p;
-//     _ciaNumber = c;
+Atleta::Atleta(const string &n, const Genero &g, const int &a, const Pais &p, const int &c) {
+    _nombre = n;
+    _genero = g;
+    _anioNacimiento = a;
+    _nacionalidad = p;
+    _ciaNumber = c;
 
-//     pair <Deporte, int> _initdep = make_pair("Tenis", 50);
-//     _deportes.push_back(_initdep);
-// }
+    pair <Deporte, int> _initdep = make_pair("Tenis", 50);
+    _deportes.push_back(_initdep);
+}
 
 string Atleta::nombre() const {
     return _nombre;
@@ -33,12 +33,29 @@ int Atleta::ciaNumber() const {
 }
 
 vector<Deporte> Atleta::deportes() const {
-    vector<Deporte> ret;
-    return ret;
+    int i = 0;
+
+    vector<Deporte> res;
+
+    while ( i < _deportes.size() ) {
+        ret.push_back( _deportes[i].first; )
+        i++;
+    }
+
+    return res;
 }
 
 int Atleta::capacidad(const Deporte &d) const {
-    return 0;
+    int res = _deportes[0].first;
+    int i = 0;
+
+    while ( i < _deportes.size() && (_deportes[i].first != d) ) {
+        i++;
+        if ( _deportes[i].first == d )
+            res = _deportes[i].second;
+    }
+
+    return res;
 }
 
 Deporte Atleta::especialidad() const {
