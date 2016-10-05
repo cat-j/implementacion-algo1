@@ -1,14 +1,16 @@
 #include "../include/atleta.h"
 
 
-Atleta::Atleta(const string &n, const Genero &g, const int &a, const Pais &p, const int &c) {
-    _nombre = n;
-    _genero = g;
-    _anioNacimiento = a;
-    _nacionalidad = p;
-    _ciaNumber = c;
-    _deportes = { make_pair("Tenis", 50) };
-}
+// Atleta::Atleta(const string &n, const Genero &g, const int &a, const Pais &p, const int &c) {
+//     _nombre = n;
+//     _genero = g;
+//     _anioNacimiento = a;
+//     _nacionalidad = p;
+//     _ciaNumber = c;
+
+//     pair <Deporte, int> _initdep = make_pair("Tenis", 50);
+//     _deportes.push_back(_initdep);
+// }
 
 string Atleta::nombre() const {
     return _nombre;
