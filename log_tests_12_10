@@ -1,0 +1,248 @@
+/opt/clion-2016.2.1/bin/cmake/bin/cmake --build /home/cjuarros/.CLion2016.2/system/cmake/generated/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb-f8def91d/f8def91d/Debug --target correrTests -- -j 4
+[ 14%] Built target gtest
+[ 28%] Built target gtest_main
+Scanning dependencies of target src
+[ 42%] Building CXX object CMakeFiles/src.dir/src/atleta.cpp.o
+[ 42%] Building CXX object CMakeFiles/src.dir/src/main.cpp.o
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘std::vector<std::basic_string<char> > Atleta::deportes() const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:43:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _deportes.size() ) {
+                                ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘int Atleta::capacidad(const Deporte&) const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:55:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _deportes.size() && (_deportes[i].first != d) ) {
+                                ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘Deporte Atleta::especialidad() const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:69:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _deportes.size() ) {
+                                ^
+In file included from /home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/main.cpp:2:0:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘std::vector<std::basic_string<char> > Atleta::deportes() const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:43:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _deportes.size() ) {
+                                ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘int Atleta::capacidad(const Deporte&) const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:55:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _deportes.size() && (_deportes[i].first != d) ) {
+                                ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘Deporte Atleta::especialidad() const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:69:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _deportes.size() ) {
+                                ^
+In file included from /home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/main.cpp:3:0:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp: In constructor ‘Competencia::Competencia(const Deporte&, const Genero&, const std::vector<Atleta>&)’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:9:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while ( i < as.size() ) {
+                       ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+In file included from /home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/main.cpp:4:0:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp: In constructor ‘JJOO::JJOO(const int&, const std::vector<Atleta>&, const std::vector<std::vector<Competencia> >&)’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:12:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while ( i < as.size() ) {
+                       ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:20:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   while ( j < cs.size() ) {
+                       ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp: In member function ‘std::vector<Competencia> JJOO::competencias() const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:50:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     while ( i < _cronograma.size() ) {
+                                  ^
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:54:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       while ( j < actual.size() ) {
+                               ^
+In file included from /home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/main.cpp:2:0:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp: In member function ‘Deporte Atleta::especialidad() const’:
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[ 50%] Linking CXX static library libsrc.a
+[ 71%] Built target src
+[ 78%] Linking CXX executable correrTests
+../libsrc.a(main.cpp.o): En la función `Atleta::Atleta(std::string const&, Genero const&, int const&, std::string const&, int const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:7: definiciones múltiples de `Atleta::Atleta(std::string const&, Genero const&, int const&, std::string const&, int const&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:7: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::Atleta(std::string const&, Genero const&, int const&, std::string const&, int const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:7: definiciones múltiples de `Atleta::Atleta(std::string const&, Genero const&, int const&, std::string const&, int const&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:7: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::nombre() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:18: definiciones múltiples de `Atleta::nombre() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:18: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::genero() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:22: definiciones múltiples de `Atleta::genero() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:22: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::anioNacimiento() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:26: definiciones múltiples de `Atleta::anioNacimiento() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:26: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::nacionalidad() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:30: definiciones múltiples de `Atleta::nacionalidad() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:30: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::ciaNumber() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:34: definiciones múltiples de `Atleta::ciaNumber() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:34: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::deportes() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:38: definiciones múltiples de `Atleta::deportes() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:38: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::capacidad(std::string const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:51: definiciones múltiples de `Atleta::capacidad(std::string const&) const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:51: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::especialidad() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:64: definiciones múltiples de `Atleta::especialidad() const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:64: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::entrenarNuevoDeporte(std::string const&, int const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:79: definiciones múltiples de `Atleta::entrenarNuevoDeporte(std::string const&, int const&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:79: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::mostrar(std::ostream&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:84: definiciones múltiples de `Atleta::mostrar(std::ostream&) const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:84: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::guardar(std::ostream&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:87: definiciones múltiples de `Atleta::guardar(std::ostream&) const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:87: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::cargar(std::istream&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:90: definiciones múltiples de `Atleta::cargar(std::istream&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:90: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `operator<<(std::ostream&, Atleta const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:93: definiciones múltiples de `operator<<(std::ostream&, Atleta const&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:93: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `operator>>(std::ostream&, Atleta const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:97: definiciones múltiples de `operator>>(std::ostream&, Atleta const&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:97: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::operator==(Atleta const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:101: definiciones múltiples de `Atleta::operator==(Atleta const&) const'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:101: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Atleta::operator=(Atleta const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:105: definiciones múltiples de `Atleta::operator=(Atleta const&)'
+../libsrc.a(atleta.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/atleta.cpp:105: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::Competencia(std::string const&, Genero const&, std::vector<Atleta, std::allocator<Atleta> > const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:4: definiciones múltiples de `Competencia::Competencia(std::string const&, Genero const&, std::vector<Atleta, std::allocator<Atleta> > const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:4: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::Competencia(std::string const&, Genero const&, std::vector<Atleta, std::allocator<Atleta> > const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:4: definiciones múltiples de `Competencia::Competencia(std::string const&, Genero const&, std::vector<Atleta, std::allocator<Atleta> > const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:4: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::categoria() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:15: definiciones múltiples de `Competencia::categoria() const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:15: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::participantes() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:19: definiciones múltiples de `Competencia::participantes() const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:19: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::finalizada() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:23: definiciones múltiples de `Competencia::finalizada() const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:23: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::ranking() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:27: definiciones múltiples de `Competencia::ranking() const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:27: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::lesTocoControlAntiDoping() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:31: definiciones múltiples de `Competencia::lesTocoControlAntiDoping() const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:31: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::leDioPositivo(Atleta const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:37: definiciones múltiples de `Competencia::leDioPositivo(Atleta const&) const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:37: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::finalizar(std::vector<int, std::allocator<int> > const&, std::vector<std::pair<int, bool>, std::allocator<std::pair<int, bool> > > const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:41: definiciones múltiples de `Competencia::finalizar(std::vector<int, std::allocator<int> > const&, std::vector<std::pair<int, bool>, std::allocator<std::pair<int, bool> > > const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:41: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::linfordChristie(int const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:45: definiciones múltiples de `Competencia::linfordChristie(int const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:45: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::gananLosMasCapaces() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:49: definiciones múltiples de `Competencia::gananLosMasCapaces() const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:49: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::sancionarTramposos()':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:53: definiciones múltiples de `Competencia::sancionarTramposos()'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:53: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::mostrar(std::ostream&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:57: definiciones múltiples de `Competencia::mostrar(std::ostream&) const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:57: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::guardar(std::ostream&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:60: definiciones múltiples de `Competencia::guardar(std::ostream&) const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:60: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::cargar(std::istream&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:63: definiciones múltiples de `Competencia::cargar(std::istream&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:63: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `operator<<(std::ostream&, Competencia const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:66: definiciones múltiples de `operator<<(std::ostream&, Competencia const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:66: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `operator>>(std::ostream&, Competencia const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:70: definiciones múltiples de `operator>>(std::ostream&, Competencia const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:70: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::operator==(Competencia const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:74: definiciones múltiples de `Competencia::operator==(Competencia const&) const'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:74: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `Competencia::operator=(Competencia const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:78: definiciones múltiples de `Competencia::operator=(Competencia const&)'
+../libsrc.a(competencia.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/competencia.cpp:78: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::JJOO(int const&, std::vector<Atleta, std::allocator<Atleta> > const&, std::vector<std::vector<Competencia, std::allocator<Competencia> >, std::allocator<std::vector<Competencia, std::allocator<Competencia> > > > const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:7: definiciones múltiples de `JJOO::JJOO(int const&, std::vector<Atleta, std::allocator<Atleta> > const&, std::vector<std::vector<Competencia, std::allocator<Competencia> >, std::allocator<std::vector<Competencia, std::allocator<Competencia> > > > const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:7: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::JJOO(int const&, std::vector<Atleta, std::allocator<Atleta> > const&, std::vector<std::vector<Competencia, std::allocator<Competencia> >, std::allocator<std::vector<Competencia, std::allocator<Competencia> > > > const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:7: definiciones múltiples de `JJOO::JJOO(int const&, std::vector<Atleta, std::allocator<Atleta> > const&, std::vector<std::vector<Competencia, std::allocator<Competencia> >, std::allocator<std::vector<Competencia, std::allocator<Competencia> > > > const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:7: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::anio() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:26: definiciones múltiples de `JJOO::anio() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:26: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::atletas() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:30: definiciones múltiples de `JJOO::atletas() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:30: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::cantDias() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:34: definiciones múltiples de `JJOO::cantDias() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:34: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::jornadaActual() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:38: definiciones múltiples de `JJOO::jornadaActual() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:38: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::cronograma(int const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:42: definiciones múltiples de `JJOO::cronograma(int const&) const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:42: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::competencias() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:46: definiciones múltiples de `JJOO::competencias() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:46: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::competenciasFinalizadasConOroEnPodio() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:65: definiciones múltiples de `JJOO::competenciasFinalizadasConOroEnPodio() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:65: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::dePaseo() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:70: definiciones múltiples de `JJOO::dePaseo() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:70: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::medallero() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:75: definiciones múltiples de `JJOO::medallero() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:75: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::boicotPorDisciplina(std::pair<std::string, Genero> const&, std::string const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:80: definiciones múltiples de `JJOO::boicotPorDisciplina(std::pair<std::string, Genero> const&, std::string const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:80: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::losMasFracasados(std::string const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:84: definiciones múltiples de `JJOO::losMasFracasados(std::string const&) const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:84: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::liuSong(Atleta const&, std::string const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:89: definiciones múltiples de `JJOO::liuSong(Atleta const&, std::string const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:89: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::stevenBradbury() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:93: definiciones múltiples de `JJOO::stevenBradbury() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:93: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::uyOrdenadoAsiHayUnPatron() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:98: definiciones múltiples de `JJOO::uyOrdenadoAsiHayUnPatron() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:98: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::sequiaOlimpica() const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:102: definiciones múltiples de `JJOO::sequiaOlimpica() const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:102: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::transcurrirDia()':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:107: definiciones múltiples de `JJOO::transcurrirDia()'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:107: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::mostrar(std::ostream&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:111: definiciones múltiples de `JJOO::mostrar(std::ostream&) const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:111: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::guardar(std::ostream&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:114: definiciones múltiples de `JJOO::guardar(std::ostream&) const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:114: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::cargar(std::istream&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:117: definiciones múltiples de `JJOO::cargar(std::istream&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:117: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `operator<<(std::ostream&, JJOO const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:120: definiciones múltiples de `operator<<(std::ostream&, JJOO const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:120: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `operator>>(std::ostream&, JJOO const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:124: definiciones múltiples de `operator>>(std::ostream&, JJOO const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:124: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::operator==(JJOO const&) const':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:128: definiciones múltiples de `JJOO::operator==(JJOO const&) const'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:128: primero se definió aquí
+../libsrc.a(main.cpp.o): En la función `JJOO::operator=(JJOO const&)':
+/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:132: definiciones múltiples de `JJOO::operator=(JJOO const&)'
+../libsrc.a(jjoo.cpp.o):/home/cjuarros/algo1/tps/implementacion/algo1-tpi-master-2d100ae45a7a80690d8e1afad9db17f52ea2d7bb/src/jjoo.cpp:132: primero se definió aquí
