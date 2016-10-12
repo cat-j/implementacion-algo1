@@ -2,18 +2,26 @@
 
 
 Competencia::Competencia(const Deporte &d, const Genero &g, const vector<Atleta> &as) {
+  _categoria = make_pair(d,g);
+  _finalizada = false;
+
+  int i = 0;
+  while ( i < as.size() ) {
+    _participantes.push_back( as[i] );
+    i++;
+  }
 }
 
 Categoria Competencia::categoria() const {
-    return pair<Deporte, Genero>();
+    return _categoria;
 }
 
 vector<Atleta> Competencia::participantes() const {
-    return vector<Atleta>();
+    return _participantes;
 }
 
 bool Competencia::finalizada() const {
-    return false;
+    return _finalizada;
 }
 
 vector<Atleta> Competencia::ranking() const {

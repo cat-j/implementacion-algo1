@@ -5,31 +5,61 @@
 
 
 JJOO::JJOO(const int &a, const vector<Atleta> &as, const vector<vector<Competencia> > &cs) {
+  _anio = a;
+  _jornadaActual = 1;
+
+  int i = 0;
+  while ( i < as.size() ) {
+    _atletas.push_back( as[i] );
+    i++;
+  }
+
+  // por ahi estamos usando memoria al pedo, pero me parece que es mas claro
+  // deberiamos ver si se puede hacer push.back con un elemento Vector
+  int j = 0;
+  while ( j < cs.size() ) {
+    _cronograma.push_back( cs[j] );
+    j++;
+  }
 }
 
 int JJOO::anio() const {
-    return 1920;
+    return _anio;
 }
 
 vector<Atleta> JJOO::atletas() const {
-    return vector<Atleta>();
+    return _atletas;
 }
 
 int JJOO::cantDias() const {
-    return 0;
+    return _cronograma.size();
 }
 
 int JJOO::jornadaActual() const {
-    return 0;
+    return _jornadaActual;
 }
 
 vector<Competencia> JJOO::cronograma(const int &d) const {
-    return vector<Competencia>();
+    return _cronograma[d-1];
 }
 
 vector<Competencia> JJOO::competencias() const {
-    vector<Competencia> ret;
-    return ret;
+    vector<Competencia> res;
+    int i = 0;
+
+    while ( i < _cronograma.size() ) {
+      int j = 0;
+      vector<Competencia> actual = _cronograma[i];
+
+      while ( j < actual.size() ) {
+        res.push_back( actual[j] );
+        j++;
+      }
+
+      i++;
+    }
+
+    return res;
 }
 
 vector<Competencia> JJOO::competenciasFinalizadasConOroEnPodio() const {

@@ -59,10 +59,22 @@ int Atleta::capacidad(const Deporte &d) const {
 }
 
 Deporte Atleta::especialidad() const {
-    return "Tenis";
+    Deporte res = _deportes[0].first;
+    int cap = _deportes[0].second;
+    int i = 0;
+
+    while ( i < _deportes.size() ) {
+      i++;
+      if ( _deportes[i].second > cap ) {
+        res = _deportes[i].first;
+      }
+
+      return res;
+    }
 }
 
 void Atleta::entrenarNuevoDeporte(const Deporte &d, const int &c) {
+  // si nos organizamos lo hacemos tooodooooooooooos
     return;
 }
 
