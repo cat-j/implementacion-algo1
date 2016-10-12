@@ -61,7 +61,7 @@ void JJOO::liuSong(const Atleta &a, const Pais &p) {
 }
 
 Atleta JJOO::stevenBradbury() const {
-    Atleta ret("Bob esponja", Genero::Masculino, 0, "Pais falso", 0);
+    Atleta ret("Bob esponja", Masculino, 0, "Pais falso", 0);
     return ret;
 }
 

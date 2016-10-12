@@ -38,7 +38,7 @@ vector<Deporte> Atleta::deportes() const {
     vector<Deporte> res;
 
     while ( i < _deportes.size() ) {
-        ret.push_back( _deportes[i].first; )
+        res.push_back( _deportes[i].first );
         i++;
     }
 
@@ -46,7 +46,7 @@ vector<Deporte> Atleta::deportes() const {
 }
 
 int Atleta::capacidad(const Deporte &d) const {
-    int res = _deportes[0].first;
+    int res = _deportes[0].second;
     int i = 0;
 
     while ( i < _deportes.size() && (_deportes[i].first != d) ) {
